@@ -12,6 +12,7 @@
       href="https://s.pageclip.co/v1/pageclip.css"
       media="screen"
     />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
@@ -521,9 +522,14 @@
     <script>
       var form = document.querySelector(".pageclip-form");
       Pageclip.form(form, {
-        onSubmit: function (event) {},
-        onResponse: function (error, response) {},
-        successTemplate: "<span>Thank you!</span>",
+        onSubmit: function (event) {
+          function myFunction() {
+            window.location.href =
+              "https://ayman123iptv.github.io/stream-iptv.github.io/thanks.html";
+          }
+        },
+        // onResponse: function (error, response) {},
+        // successTemplate: "<span>Thank you!</span>",
       });
     </script>
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
