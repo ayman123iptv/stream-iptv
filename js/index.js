@@ -12,7 +12,7 @@ function handleSubmit(id) {
   if (id == 3) {
     // to set into local storage
     localStorage.setItem("offre", "Premium Pack");
-    localStorage.setItem("price", "$20.99");
+    localStorage.setItem("price", "$19.99");
   }
   if (id == 4) {
     // to set into local storage
