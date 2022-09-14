@@ -399,11 +399,7 @@
                         </div>
                         <input type="hidden" name="offree" id="offree" />
                         <input type="hidden" name="pricee" id="pricee" />
-                        <button
-                          type="submit"
-                          href="./thanks.html"
-                          class="theme-btn btn-style-four"
-                        >
+                        <button type="submit" class="theme-btn btn-style-four">
                           <span class="txt">Place Order</span>
                         </button>
                       </div>
@@ -523,7 +519,7 @@
         }).then((message) => alert("mail sent successfully"));
       }
     </script> -->
-    <!-- <script>
+    <script>
       var form = document.querySelector(".pageclip-form");
       Pageclip.form(form, {
         onSubmit: function (event) {
@@ -532,10 +528,10 @@
               "https://ayman123iptv.github.io/stream-iptv.github.io/thanks.html";
           }
         },
-        // onResponse: function (error, response) {},
-        // successTemplate: "<span>Thank you!</span>",
+        onResponse: function (error, response) {},
+        successTemplate: "<span>Thank you!</span>",
       });
-    </script> -->
+    </script>
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
     <script src="js/index.js"></script>
